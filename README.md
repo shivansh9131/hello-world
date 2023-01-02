@@ -1,2 +1,0 @@
-
-its quotes web page
