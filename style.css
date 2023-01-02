@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0; 
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border-radius: 10px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list
+{
+ width: 50%;
+ display: flex;
+ align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.rightNav{
+    background-color: aquamarine;
+    width: 50;
+    text-align: right;
+     padding: 0%;
+}
+ 
+#search{
+    padding: 3px;
+    font-size: 17px;
+    border: 2px solid yellow;
+    border-radius: 25px; 
+}
+.background{
+    background:  url("https://content.wepik.com/statics/6138435/preview-page0.jpg");
+    background-size: cover;
+    background-blend-mode: normal; 
+    
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.firstsection{
+    height: 100vh;
+}
+.firsthalf{
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    width: 70%;
+    padding: 4px;
+    border: 4px solid black;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+} 
+.text-big{
+    font-size: 50px;
+
+
+}
+.text-small{
+ font-size: 25;
+
+}
+.btn{
+    padding: 8px 20px;
+    margin: 8px 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.secright{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+
+}
+.section-left{
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    padding: auto;
+}
+.thumbnail img{
+  width: 350px;
+  border-radius: 26px;
+  margin-top: 19px;
+
+}
+.paras{
+    padding: 0px 65px;
+}
